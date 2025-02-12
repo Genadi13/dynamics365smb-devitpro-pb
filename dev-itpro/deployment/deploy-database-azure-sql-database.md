@@ -63,6 +63,10 @@ Make sure the database meets these requirements:
 
     For more information about the deadlock monitor, see [Monitoring SQL Database Deadlocks](../administration/monitor-database-deadlocks.md).
 
+4. Encrypt the database, before uploading it to Azure SQL.
+
+   For more information about the encryption, see [Encrypting data in Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data.md).
+
 ## Deploying using BACPAC files
 
 For smaller databases (typically up to 50 GB), you can deploy them using a BACPAC file. This method requires the database to be off-line (the [!INCLUDE[server](../developer/includes/server.md)] instance cannot be connected to the database).
